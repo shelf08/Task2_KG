@@ -12,7 +12,7 @@ public class WuApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(WuApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
-        stage.setTitle("Algorithm Wu");
+        stage.setTitle("Algorithm Wu Line");
         stage.setScene(scene);
         stage.show();
     }

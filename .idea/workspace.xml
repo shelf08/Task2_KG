@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9268e04b-0adb-4123-98d7-5b375cee9bf9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/task2_kg/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/task2_kg/hello-view.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="9268e04b-0adb-4123-98d7-5b375cee9bf9" name="Changes" comment="fxml block of window" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,11 +33,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.vsu.cs.lobtsov_d_a" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,8 +62,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699800624979</updated>
-      <workItem from="1699800626058" duration="2000" />
+      <workItem from="1699800626058" duration="1011000" />
     </task>
+    <task id="LOCAL-00001" summary="creat main structure">
+      <option name="closed" value="true" />
+      <created>1699801148949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699801148949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="logic of line">
+      <option name="closed" value="true" />
+      <created>1699801364217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699801364217</updated>
+    </task>
+    <task id="LOCAL-00003" summary="draw a line with specific">
+      <option name="closed" value="true" />
+      <created>1699801465592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699801465592</updated>
+    </task>
+    <task id="LOCAL-00004" summary="window and launch class">
+      <option name="closed" value="true" />
+      <created>1699801540345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699801540345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fxml block of window">
+      <option name="closed" value="true" />
+      <created>1699801589307</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699801589307</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creat main structure" />
+    <MESSAGE value="logic of line" />
+    <MESSAGE value="draw a line with specific" />
+    <MESSAGE value="window and launch class" />
+    <MESSAGE value="fxml block of window" />
+    <option name="LAST_COMMIT_MESSAGE" value="fxml block of window" />
   </component>
 </project>
