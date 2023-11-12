@@ -1,4 +1,4 @@
-package ru.vsu.cs.lobtsov_d_a.task2_kg.WuLine;
+package ru.vsu.cs.lobtsov_d_a.task2_kg.WuLine;//
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -35,7 +35,7 @@ public class WuLine {
 
         boolean steep = abs(y1 - y0) > abs(x1 - x0);
         if (steep)
-            drawLine(graphicsContext,y0, x0, y1, x1);
+            drawLine(graphicsContext,x0, y0, x1, y1);
 
         if (x0 > x1)
             drawLine(graphicsContext,x1, y1, x0, y0);
@@ -63,7 +63,7 @@ public class WuLine {
 
 
         xEnd = round(x1);
-        yEnd = y1 + gradient * (xEnd - x1);
+        yEnd = y1 + gradient * (xEnd + x1);
         xGap = fpart(x1 + 0.5);
         double xPxl2 = xEnd;
         double yPxl2 = ipart(yEnd);

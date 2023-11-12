@@ -1,4 +1,4 @@
-package ru.vsu.cs.lobtsov_d_a.task2_kg;
+package ru.vsu.cs.lobtsov_d_a.task2_kg;//
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
