@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>.
+<?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
 
-<AnchorPane fx:id="anchorPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="ru.vsu.cs.lobtsov_d_a.task2_kg.WuController">
+<AnchorPane fx:id="anchorPane" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vsu.cs.lobtsov_d_a.task2_kg.WuController">
     <children>
-        <Canvas fx:id="canvas" height="700" width="900" AnchorPane.topAnchor="30.0" />
+        <Canvas fx:id="canvas" height="690.0" layoutY="41.0" style="-fx-background-color: #e4dfdf;" width="900.0" AnchorPane.topAnchor="41.0" />
+      <ColorPicker fx:id="colorPicker" layoutX="14.0" layoutY="12.0" prefHeight="29.0" prefWidth="885.0">
+         <value>
+            <Color red="1.0" />
+         </value>
+      </ColorPicker>
     </children>
 </AnchorPane>

@@ -1,8 +1,10 @@
-package ru.vsu.cs.lobtsov_d_a.task2_kg;//
+package ru.vsu.cs.lobtsov_d_a.task2_kg;
 
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
+import javafx.scene.control.ColorPicker;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
@@ -18,6 +20,10 @@ public class WuController {
     @FXML
     private Canvas canvas;
     WuLine wuLine = new WuLine();
+    @FXML
+    public ColorPicker colorPicker;
+    @FXML
+    public static Color color;
     @FXML
     private void initialize() {
         anchorPane.prefWidthProperty().addListener((ov, oldValue, newValue) -> canvas.setWidth(newValue.doubleValue()));
@@ -46,7 +52,7 @@ public class WuController {
             public void handle(MouseEvent mouseEvent) {
                 canvas.getGraphicsContext2D().setFill(Color.WHITE);
                 canvas.getGraphicsContext2D().fillRect(0,0,1000,1000);
-                canvas.getGraphicsContext2D().setFill(Color.BLACK);
+                canvas.getGraphicsContext2D().setFill(Color.RED);
                 wuLine.drawLine(canvas.getGraphicsContext2D(), 500,500, mouseEvent.getX(), mouseEvent.getY());
             }
         });
@@ -54,6 +60,13 @@ public class WuController {
 
         canvas.setOnMousePressed(this::handleMouseDown);
         canvas.setOnMouseReleased(this::handleMouseUP);
+
+        colorPicker.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                color = colorPicker.getValue();
+            }
+        });
 
     }
 
