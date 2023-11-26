@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9268e04b-0adb-4123-98d7-5b375cee9bf9" name="Changes" comment="full ready">
+    <list default="true" id="9268e04b-0adb-4123-98d7-5b375cee9bf9" name="Changes" comment="think all ready, but color have miss">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuLine/PixelDrawer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuLine/WuLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuLine/WuLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuLine/WuLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/cs/lobtsov_d_a/task2_kg/WuLine/WuLineDrawer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ru/vsu/cs/lobtsov_d_a/task2_kg/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ru/vsu/cs/lobtsov_d_a/task2_kg/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,27 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;origin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "origin",
+    "last_opened_file_path": "C:/Users/viplo/IdeaProjects/Task2_KG",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.vsu.cs.lobtsov_d_a.task2_kg.WuLine" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.vsu.cs.lobtsov_d_a" />
     </key>
@@ -107,7 +114,10 @@
       <option name="presentableId" value="Default" />
       <updated>1699800624979</updated>
       <workItem from="1699800626058" duration="3066000" />
-      <workItem from="1699814437626" duration="1747000" />
+      <workItem from="1699814437626" duration="2307000" />
+      <workItem from="1699899565935" duration="1186000" />
+      <workItem from="1700417081528" duration="28000" />
+      <workItem from="1701026609019" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="creat main structure">
       <option name="closed" value="true" />
@@ -173,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699814645669</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="think all ready, but color have miss">
+      <option name="closed" value="true" />
+      <created>1699816664850</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699816664850</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +227,7 @@
     <MESSAGE value="window and launch class" />
     <MESSAGE value="fxml block of window" />
     <MESSAGE value="full ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="full ready" />
+    <MESSAGE value="think all ready, but color have miss" />
+    <option name="LAST_COMMIT_MESSAGE" value="think all ready, but color have miss" />
   </component>
 </project>

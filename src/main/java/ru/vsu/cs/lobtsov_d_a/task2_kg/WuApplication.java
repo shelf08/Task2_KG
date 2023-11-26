@@ -11,8 +11,8 @@ public class WuApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(WuApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 900, 700);
-        stage.setTitle("Algorithm Wu Line");
+        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
+        stage.setTitle("WuLine");
         stage.setScene(scene);
         stage.show();
     }
